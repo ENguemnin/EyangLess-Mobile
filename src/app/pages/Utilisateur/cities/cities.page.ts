@@ -167,7 +167,7 @@ interface City {
         </div>
       </div>
 
-      <!-- Liste des cités -->
+      <!-- Liste des cités  -->
       <div class="cities-list" *ngIf="!showSearch || (!showSearchResults && !searchTerm)">
         <ion-list class="cities-main-list">
           <div 
@@ -202,7 +202,7 @@ interface City {
                 <div class="city-details">
                   <p class="city-rooms">{{ city.totalRooms }} chambres</p>
                   <div class="city-availability" *ngIf="city.availableRooms > 0">
-                    <span class="available-count">{{ city.availableRooms }} chambres libres</span>
+                    <span class="available-count">{{ city.availableRooms }} Les chambres libres</span>
                   </div>
                 </div>
               </ion-card-content>
